@@ -1,0 +1,295 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ffffff;
+  -webkit-tap-highlight-color: transparent;
+}
+
+#bars {
+  cursor: pointer;
+  display: none;
+  font-size: 40px;
+  margin: 20px;
+  width: 50px;
+}
+
+.hamburger_links {
+  display: none;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.hamburger_links ul li a {
+  text-decoration: none;
+  color: rgb(3, 3, 3);
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 600;
+  margin-left: 15px;
+  font-size: 30px;
+}
+
+.hamburger_links ul li {
+  list-style-type: none;
+}
+.hamburger_links ul li a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.15rem;
+  text-underline-offset: 0.313rem;
+}
+
+.navbar {
+  display: flex;
+  margin-top: 35px;
+  margin-bottom: 4.2rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.home,
+.resume,
+.projects {
+  font-size: 2.1875rem;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "Annie Use Your Telescope", cursive;
+  border: 3px solid black;
+  padding: 20px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 0.15rem;
+  text-decoration-color: #000000;
+  text-underline-offset: 0.313rem;
+  box-shadow: 0 0 50px rgb(143, 142, 142);
+  background-color: rgb(216, 213, 213);
+  transition: 0.5s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.name {
+  text-align: center;
+  font-size: 60px;
+  font-family: "Annie Use Your Telescope", cursive;
+  color: #000000;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.main_box {
+  width: 50%;
+  height: 15.75rem;
+  background-color: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  border: 3px solid black;
+  font-size: 0px;
+  -webkit-tap-highlight-color: transparent;
+}
+.teen_boy {
+  width: 11.285rem;
+  margin-top: -0.125rem;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.learn_more {
+  width: 150px;
+  background-color: rgb(255, 255, 255);
+  padding: 0.625rem;
+  margin-top: 20px;
+  display: block;
+  margin: auto;
+  margin-top: 50px;
+  cursor: pointer;
+  border: 3px solid black;
+  font-weight: 600;
+  -webkit-tap-highlight-color: transparent;
+}
+.learn_more a {
+  position: relative;
+  left: 20px;
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  font-family: "Annie Use Your Telescope", cursive;
+  -webkit-tap-highlight-color: transparent;
+}
+.learn_more:hover {
+  transition: 0.5s;
+  background-color: #dfdfdf;
+  box-shadow: 0 0 50px rgb(177, 175, 175);
+  -webkit-tap-highlight-color: transparent;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 300px;
+  height: 300px;
+  margin: auto;
+  margin-top: 80px;
+  border-radius: 156px;
+  display: flex;
+  overflow: hidden;
+  background-color: #ffffff;
+  position: relative;
+  border: 3px solid rgb(0, 0, 0);
+  cursor: pointer;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.card p {
+  font-family: "Annie Use Your Telescope", cursive;
+  font-weight: 600;
+  align-self: center;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 40px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.scl_img {
+  position: absolute;
+  width: 12.375rem;
+  margin-top: 40px;
+  margin-left: 44px;
+  -webkit-tap-highlight-color: transparent;
+}
+.overlay {
+  position: absolute;
+  top: 100%;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #000000;
+  transition: all 0.9s ease-in-out;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-tap-highlight-color: transparent;
+}
+.text {
+  font-family: "Inconsolata", monospace;
+  text-align: center;
+  width: auto;
+  color: aliceblue;
+  position: absolute;
+  top: 100px;
+  text-transform: capitalize;
+  -webkit-tap-highlight-color: transparent;
+}
+.card:hover {
+  box-shadow: 0 0 50px rgb(158, 157, 157);
+  transition: 0.5s;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.card:hover .overlay {
+  width: 100%;
+  height: 100%;
+  transform: translatey(-100%);
+  -webkit-tap-highlight-color: transparent;
+}
+
+.teenage_boy {
+  position: absolute;
+  width: 200px;
+  margin-top: 40px;
+  margin-left: 61px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.lang_c {
+  position: absolute;
+  width: 200px;
+  margin-top: 35px;
+  margin-left: 55px;
+  -webkit-tap-highlight-color: transparent;
+}
+
+.footer {
+  margin-top: 50px;
+  width: 100%;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+  text-align: center;
+  line-height: 60px;
+  position: block;
+  right: 0px;
+  bottom: 0px;
+  border-top: 2px solid black;
+  -webkit-tap-highlight-color: transparent;
+}
+
+@media (max-width: 730px) {
+  .card {
+    width: 230px;
+    height: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .learn_more {
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .main_box {
+    width: 350px;
+    height: 150px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .teen_boy {
+    width: 6.7rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .name {
+    font-size: 50px;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .navbar {
+    display: inline-block;
+    margin-bottom: 1.2rem;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .home,
+  .resume,
+  .projects {
+    display: none;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .hamburger {
+    align-items: flex-end;
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  .hamburger_links {
+    display: block;
+    margin-bottom: 25px;
+    -webkit-tap-highlight-color: transparent;
+  }
+  #bars {
+    display: block;
+    -webkit-tap-highlight-color: transparent;
+  }
+  .text {
+    padding: 20px;
+    top: 51px;
+  }
+}
